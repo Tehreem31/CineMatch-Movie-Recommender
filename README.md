@@ -31,14 +31,4 @@ CineMatch is an interactive web application that provides personalized movie rec
 
 ---
 
-## 🛠️ Local Setup Instructions
 
-1. **Clone the repository:**
-   `git clone https://github.com/Tehreem31/CineMatch-Movie-Recommender.git`
-   `cd CineMatch-Movie-Recommender`
-
-2. **Install dependencies:**
-   `pip install -r requirements.txt`
-
-3. **Launch the application:**
-   `streamlit run app.py`
