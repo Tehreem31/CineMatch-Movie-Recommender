@@ -22,11 +22,14 @@ CineMatch is an interactive web application that provides personalized movie rec
 ---
 
 ## 📁 Repository Structure
+
 ├── README.md                   # Project documentation
 ├── RecommendationSystem.ipynb   # Data preparation, EDA, TF-IDF vectorization & hybrid modeling
 ├── app.py                      # Streamlit application script & frontend UI
 ├── app_demo.png                # Interface screenshot preview
 └── requirements.txt            # Python dependencies for deployment
+
+
 ---
 
 ## 🛠️ Local Setup Instructions
