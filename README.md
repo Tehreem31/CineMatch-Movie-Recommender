@@ -23,18 +23,22 @@ CineMatch is an interactive web application that provides personalized movie rec
 
 ## 📁 Repository Structure
 
-├── README.md                   # Project documentation
-├── RecommendationSystem.ipynb   # Data preparation, EDA, TF-IDF vectorization & hybrid modeling
-├── app.py                      # Streamlit application script & frontend UI
-├── app_demo.png                # Interface screenshot preview
-└── requirements.txt            # Python dependencies for deployment
-
+- `README.md` — Project documentation
+- `RecommendationSystem.ipynb` — Data preparation, EDA, TF-IDF vectorization & hybrid modeling
+- `app.py` — Streamlit application script & frontend UI
+- `app_demo.png` — Interface screenshot preview
+- `requirements.txt` — Python dependencies for deployment
 
 ---
 
 ## 🛠️ Local Setup Instructions
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Tehreem31/CineMatch-Movie-Recommender.git](https://github.com/Tehreem31/CineMatch-Movie-Recommender.git)
-   cd CineMatch-Movie-Recommender
+   `git clone https://github.com/Tehreem31/CineMatch-Movie-Recommender.git`
+   `cd CineMatch-Movie-Recommender`
+
+2. **Install dependencies:**
+   `pip install -r requirements.txt`
+
+3. **Launch the application:**
+   `streamlit run app.py`
