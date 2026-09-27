@@ -1,17 +1,17 @@
 # CineMatch: Hybrid Movie Recommendation System
 
-CineMatch is an interactive web application that provides personalized movie recommendations by blending content-based filtering (TF-IDF vectorization on movie genres) with collaborative filtering signals (normalized user ratings and vote counts).
+CineMatch is an interactive web application that provides personalized movie recommendations by combining content-based filtering (TF-IDF vectorization on movie genres) with collaborative filtering signals (normalized user ratings and vote counts).
 
 ---
 
 ##  Key Features
 
 - **Hybrid Engine Logic:** Combines content similarity matrix calculations with historical popularity and user ratings.
-- **Dynamic Algorithm Presets:** Toggle instantly between three tailored modes:
+- **Dynamic Algorithm Presets:** Toggle instantly between three tailored profiles:
   - **Balanced (Hybrid):** 50% Content / 50% Collaborative Weighting.
   - **Genre Focused:** 85% Content / 15% Collaborative Weighting.
   - **Popular & Top Rated:** 15% Content / 85% Collaborative Weighting.
-- **Dynamic UI & Posters:** Built with Streamlit in a responsive dark grid theme, featuring dynamic poster retrieval via TMDB API integration and graceful fallback handling.
+- **Dynamic UI & Posters:** Built with Streamlit in a responsive dark grid layout, featuring dynamic poster retrieval via TMDB API integration with graceful fallback handling.
 
 ---
 
@@ -21,3 +21,17 @@ CineMatch is an interactive web application that provides personalized movie rec
 
 ---
 
+## 📁 Repository Structure
+├── README.md                   # Project documentation
+├── RecommendationSystem.ipynb   # Data preparation, EDA, TF-IDF vectorization & hybrid modeling
+├── app.py                      # Streamlit application script & frontend UI
+├── app_demo.png                # Interface screenshot preview
+└── requirements.txt            # Python dependencies for deployment
+---
+
+## 🛠️ Local Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Tehreem31/CineMatch-Movie-Recommender.git](https://github.com/Tehreem31/CineMatch-Movie-Recommender.git)
+   cd CineMatch-Movie-Recommender
